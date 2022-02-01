@@ -8,6 +8,9 @@ package ca.sheridancollege.week2.softwarefundamentals;
 /**
  * The class where we create Cards
  * @author dancye, 2019
+ 
+ * Hye Min Jo(Hyemin Jo)
+ * 991660035
  */
 public class CardDealer 
 {
@@ -18,5 +21,8 @@ public class CardDealer
         
         Card game = new Card("Select", 7);
         game.setSuit("Spades");
+        
+        Card game2 = new Card("Option", 11);
+        game2.setSuit("Hearts");
     }
 }
